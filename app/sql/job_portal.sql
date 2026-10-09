@@ -8,4 +8,4 @@ CREATE TABLE applications (id INT AUTO_INCREMENT PRIMARY KEY,job_id INT NOT NULL
 
 INSERT INTO categories(name) VALUES ('Công nghệ thông tin'),('Marketing'),('Kinh doanh'),('Thiết kế'),('Kế toán - Tài chính'),('Nhân sự'),('Chăm sóc khách hàng'),('Logistics');
 -- Mật khẩu demo của admin: Admin@123 (hash cần tạo lại nếu thay đổi)
-INSERT INTO users(name,email,password,role) VALUES ('Quản trị viên','admin@jobfinder.local','$2y$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC6QZfF2Qv2fF6nM7Y2e','admin');
+INSERT INTO users(name,email,password,role) VALUES ('Quản trị viên','admin@gmail.com','123456','admin');
