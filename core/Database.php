@@ -1,8 +1,5 @@
 <?php
-/**
- * Lớp truy cập kết nối database dùng chung.
- * Tương thích với app/database.php hiện tại: không tạo kết nối PDO thứ hai.
- */
+
 namespace Core;
 
 use PDO;

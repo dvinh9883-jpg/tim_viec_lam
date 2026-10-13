@@ -1,4 +1,4 @@
 <?php
-/** Chuyển người dùng vào public/ khi mở thư mục project trên localhost. */
+// vào trang chủ
 header('Location: public/');
 exit;
