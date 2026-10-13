@@ -17,7 +17,10 @@ require __DIR__ . '/header.php'; ?><div class="page-head">
                 <td><?= e($j['location']) ?></td>
                 <td><?= $j['applications'] ?></td>
                 <td><a href="index.php?page=edit-job&id=<?= $j['id'] ?>">Sửa</a>
-                    <form class="inline" method="post" action="index.php?page=delete-job" onsubmit="return confirm('Xóa tin này?')"><input type="hidden" name="csrf" value="<?= csrf_token() ?>"><input type="hidden" name="id" value="<?= $j['id'] ?>"><button class="link danger">Xóa</button></form>
+                    <form class="inline" method="post" action="index.php?page=delete-job" onsubmit="return confirm('Xóa tin này?')">
+                        <input type="hidden" name="csrf" value="<?= csrf_token() ?>">
+                        <input type="hidden" name="id" value="<?= $j['id'] ?>">
+                        <button class="link danger">Xóa</button></form>
                 </td>
             </tr><?php endforeach; ?>
     </table>

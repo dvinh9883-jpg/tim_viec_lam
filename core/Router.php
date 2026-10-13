@@ -1,5 +1,7 @@
 <?php
+
 /** Router tương thích với URL hiện tại: index.php?page=home, index.php?page=job&id=1... */
+
 namespace Core;
 
 final class Router

@@ -1,5 +1,7 @@
 <?php
+
 /** Lớp nền tùy chọn cho các Controller trong ứng dụng. */
+
 namespace Core;
 
 abstract class BaseController

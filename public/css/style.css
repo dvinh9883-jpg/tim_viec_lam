@@ -405,5 +405,11 @@ footer {
 }
 
 /* Trạng thái đóng nhẹ cho thông báo flash (public/js/app.js). */
-.flash { transition: opacity .3s ease, transform .3s ease; }
-.flash.flash--dismissed { opacity: 0; transform: translateY(-4px); }
+.flash {
+    transition: opacity .3s ease, transform .3s ease;
+}
+
+.flash.flash--dismissed {
+    opacity: 0;
+    transform: translateY(-4px);
+}
